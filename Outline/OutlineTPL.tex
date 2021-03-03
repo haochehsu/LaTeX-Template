@@ -1,0 +1,75 @@
+%----------------Set Font Size & Layout----------------%
+\documentclass[12pt, letterpaper, oneside]{article}
+\usepackage{STYLE, amsfonts}
+%---------------------Set Margins----------------------%
+\usepackage[letterpaper, left=1in, right=1in,
+top=1in, bottom=1in, bindingoffset=0mm]{geometry}
+%-------------------Header & Footer-------------------%
+\fancypagestyle{style1}{
+\fancyhf{}
+\chead{Title}
+%\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot[C]{\thepage}
+%\renewcommand{\headrulewidth}{0pt}
+}
+%\pagestyle{style1}
+%------------------Title Page Settings------------------%
+\title{Outline: The Title of Your Paper\thanks{I thank Professor Chen and Hao-Che Hsu for useful comments and suggestions. All errors are my own.}}
+\author{Your Name\footnote{Department of Economics, University of California-Irvine. E-mail: yourUCInetID@uci.edu. UCI-ID.}}
+\date{2020}
+%-------------------------Main-------------------------%
+\begin{document}
+%\setlength{\baselineskip}{16pt}
+\doublespacing
+
+\maketitle
+
+%\begin{abstract}
+%    Here is the abstract, a very brief summary of the whole paper. %\lipsum[1]
+%\end{abstract}
+
+%\noindent\textbf{Keywords:} Competition, pricing strategy\\
+
+%\noindent\textbf{JEL Code:} L10
+%\newpage
+
+\section{Introduction}
+\begin{itemize}
+    \item In point 1, I will like to contribute to the literature based on \citep{chen2018} model  settings and assumptions.
+    \item point 2
+\end{itemize}
+
+\subsection{Industry Background}
+\begin{itemize}
+    \item This idea can be elaborated by the following:
+    \begin{enumerate}
+        \item first point \cite{web-io}
+        \item second point
+    \end{enumerate}
+\end{itemize}
+
+\section{Data}
+\begin{itemize}
+    \item idea 1
+    \item idea 2
+\end{itemize}
+
+\section{Model}
+\begin{itemize}
+    \item idea 1
+    \item idea 2
+\end{itemize}
+
+\subsection{Estimation}
+\begin{itemize}
+    \item idea 1
+    \item idea 2
+\end{itemize}
+
+\section{Conclusion}
+Summarize the findings.
+
+\bibliographystyle{JPE}
+\bibliography{REFERENCE}
+
+\end{document}
